@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Contact Us - DealSpot AI</title>
+    <meta name="title" content="Contact Us - DealSpot AI">
+    <meta name="description" content="Get in touch with DealSpot AI. We're here to answer your questions about our AI-powered marketing platform for small businesses.">
+    <meta name="keywords" content="contact DealSpot AI, support, inquiries, help">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="DealSpot AI">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dealspot.ai/contact.html">
+    <meta property="og:title" content="Contact Us - DealSpot AI">
+    <meta property="og:description" content="Get in touch with DealSpot AI. We're here to answer your questions.">
+    <meta property="og:image" content="https://dealspot.ai/images/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-container">
+            <div class="nav-brand">
+                <a href="/">
+                    <img src="/images/logo.svg" alt="DealSpot AI Logo" class="logo">
+                    <span class="brand-name">DealSpot AI</span>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/#vision">Vision</a>
+                <a href="/#features">Features</a>
+                <a href="/about.html">About</a>
+                <a href="/contact.html" class="active">Contact</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="/">Home</a>
+        <a href="/#vision">Vision</a>
+        <a href="/#features">Features</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you. Get in touch with our team.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <p class="form-intro">
+                        Have questions about DealSpot AI? Want to join our early access program?
+                        Fill out the form below and we'll get back to you as soon as possible.
+                    </p>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">
+                                <i data-lucide="user"></i>
+                                Full Name *
+                            </label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                                placeholder="John Doe"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">
+                                <i data-lucide="mail"></i>
+                                Email Address *
+                            </label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                                placeholder="john@example.com"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">
+                                <i data-lucide="phone"></i>
+                                Phone Number
+                            </label>
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="+1 (555) 123-4567"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="business">
+                                <i data-lucide="briefcase"></i>
+                                Business Name
+                            </label>
+                            <input
+                                type="text"
+                                id="business"
+                                name="business"
+                                placeholder="Your Business Name"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="industry">
+                                <i data-lucide="building"></i>
+                                Industry
+                            </label>
+                            <select id="industry" name="industry">
+                                <option value="">Select your industry</option>
+                                <option value="retail">Retail</option>
+                                <option value="restaurant">Restaurant</option>
+                                <option value="trade">Trades</option>
+                                <option value="construction">Construction</option>
+                                <option value="healthcare">Healthcare</option>
+                                <option value="beauty">Beauty & Wellness</option>
+                                <option value="automotive">Automotive</option>
+                                <option value="professional">Professional Services</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">
+                                <i data-lucide="tag"></i>
+                                Subject *
+                            </label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="early-access">Early Access Program</option>
+                                <option value="partnership">Partnership Opportunity</option>
+                                <option value="support">Technical Support</option>
+                                <option value="press">Press & Media</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="message">
+                                <i data-lucide="message-square"></i>
+                                Message *
+                            </label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                required
+                                placeholder="Tell us about your inquiry..."
+                            ></textarea>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="updates" id="updates">
+                                <span>I'd like to receive updates about DealSpot AI and early access opportunities</span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <span>Send Message</span>
+                            <i data-lucide="send"></i>
+                        </button>
+
+                        <p class="form-note">
+                            * Required fields. We'll respond within 24-48 hours during business days.
+                        </p>
+                    </form>
+
+                    <div id="formSuccess" class="form-message success" style="display: none;">
+                        <i data-lucide="check-circle"></i>
+                        <p>Thank you for your message! We'll get back to you soon.</p>
+                    </div>
+
+                    <div id="formError" class="form-message error" style="display: none;">
+                        <i data-lucide="alert-circle"></i>
+                        <p>There was an error sending your message. Please try again or email us directly.</p>
+                    </div>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-container">
+                    <div class="contact-info-card">
+                        <h3>Contact Information</h3>
+                        <p>Get in touch through any of these channels</p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i data-lucide="mail"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h4>Email</h4>
+                                    <a href="mailto:contact@dealspot.ai">contact@dealspot.ai</a>
+                                    <p class="contact-note">We'll respond within 24-48 hours</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i data-lucide="building"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h4>Company</h4>
+                                    <p>DealSpot AI</p>
+                                    <p class="contact-note">AI-Powered Marketing Solutions</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i data-lucide="clock"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h4>Business Hours</h4>
+                                    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                                    <p class="contact-note">Response time may vary on weekends</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <h3>Follow Us</h3>
+                        <p>Stay updated on our development progress</p>
+
+                        <div class="social-links-large">
+                            <a href="#" class="social-link">
+                                <i data-lucide="facebook"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i data-lucide="twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i data-lucide="linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i data-lucide="instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card highlight">
+                        <div class="card-icon">
+                            <i data-lucide="rocket"></i>
+                        </div>
+                        <h3>Join Early Access</h3>
+                        <p>
+                            Be among the first to experience DealSpot AI when we launch.
+                            Early access members get exclusive benefits and special pricing.
+                        </p>
+                        <a href="/#home" class="btn btn-primary btn-block">
+                            <span>Join Waitlist</span>
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-description">Quick answers to common questions</p>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>
+                        <i data-lucide="help-circle"></i>
+                        When will DealSpot AI launch?
+                    </h3>
+                    <p>
+                        We're currently in active development and working hard to launch our mobile and web
+                        applications soon. Join our waitlist to be notified when we go live and receive
+                        exclusive early access.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>
+                        <i data-lucide="help-circle"></i>
+                        What industries do you serve?
+                    </h3>
+                    <p>
+                        DealSpot AI is designed for small businesses across all industries including retail,
+                        restaurants, trades, construction, healthcare, beauty, automotive, and professional
+                        services. Our platform adapts to your specific industry needs.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>
+                        <i data-lucide="help-circle"></i>
+                        How much will it cost?
+                    </h3>
+                    <p>
+                        We're developing tiered subscription plans (Basic, Pro, Enterprise) designed to be
+                        affordable for small businesses. Pricing details will be announced closer to launch.
+                        Early access members will receive special introductory pricing.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>
+                        <i data-lucide="help-circle"></i>
+                        Will there be a free trial?
+                    </h3>
+                    <p>
+                        Yes! We plan to offer a free trial period so you can experience the full power of
+                        DealSpot AI before committing to a subscription.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>
+                        <i data-lucide="help-circle"></i>
+                        Can I partner with DealSpot AI?
+                    </h3>
+                    <p>
+                        We're open to partnership opportunities! Please use the contact form above and select
+                        "Partnership Opportunity" as your subject. We'd love to hear your ideas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-section">
+                <div class="footer-brand">
+                    <img src="/images/logo.svg" alt="DealSpot AI Logo" class="logo">
+                    <span class="brand-name">DealSpot AI</span>
+                </div>
+                <p class="footer-description">
+                    AI-powered social media marketing and automation platform for small businesses.
+                    Empowering growth through intelligent automation.
+                </p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">
+                        <i data-lucide="facebook"></i>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <i data-lucide="twitter"></i>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <i data-lucide="linkedin"></i>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <i data-lucide="instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="/about.html">About Us</a></li>
+                    <li><a href="/#vision">Our Vision</a></li>
+                    <li><a href="/#features">Features</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="/privacy.html">Privacy Policy</a></li>
+                    <li><a href="/terms.html">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <ul class="footer-contact">
+                    <li>
+                        <i data-lucide="mail"></i>
+                        <a href="mailto:contact@dealspot.ai">contact@dealspot.ai</a>
+                    </li>
+                    <li>
+                        <i data-lucide="building"></i>
+                        <span>DealSpot AI</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 DealSpot AI, a NoorSim Pty Ltd company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="/js/main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
