@@ -1,0 +1,24 @@
+<svg width="180" height="40" viewBox="0 0 180 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8A2BE2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A73E8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- DS Icon Background -->
+  <rect x="2" y="2" width="36" height="36" rx="8" fill="url(#gradient)"/>
+
+  <!-- D Letter -->
+  <path d="M 9 12 L 9 28 L 16 28 C 19 28 21 26 21 22 L 21 18 C 21 14 19 12 16 12 Z M 12 15 L 15 15 C 17 15 18 16 18 18 L 18 22 C 18 24 17 25 15 25 L 12 25 Z" fill="white" stroke="none"/>
+
+  <!-- S Letter -->
+  <path d="M 23 12 L 30 12 C 32 12 33 13 33 15 C 33 16 32 17 31 17 L 31 17 C 32 17 33 18 33 20 C 33 22 32 23 30 23 L 23 23 L 23 20 L 29 20 C 29.5 20 30 19.5 30 19 C 30 18.5 29.5 18 29 18 L 26 18 L 26 17 L 29 17 C 29.5 17 30 16.5 30 16 C 30 15.5 29.5 15 29 15 L 23 15 Z" fill="white" stroke="none"/>
+
+  <!-- DealSpot Text -->
+  <text x="46" y="22" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1F2937">DealSpot</text>
+
+  <!-- AI Text -->
+  <text x="46" y="34" font-family="Arial, sans-serif" font-size="11" font-weight="500" fill="url(#gradient)">AI</text>
+</svg>

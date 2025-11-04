@@ -1,0 +1,18 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="faviconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8A2BE2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A73E8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="url(#faviconGradient)"/>
+
+  <!-- Simplified D -->
+  <path d="M 8 10 L 8 22 L 13 22 C 15.5 22 17 20.5 17 18 L 17 14 C 17 11.5 15.5 10 13 10 Z M 10 12 L 12.5 12 C 14 12 15 13 15 14 L 15 18 C 15 19 14 20 12.5 20 L 10 20 Z" fill="white"/>
+
+  <!-- Simplified S -->
+  <path d="M 18 10 L 24 10 C 25.5 10 26.5 11 26.5 12.5 C 26.5 13.5 25.5 14 25 14 C 25.5 14 26.5 14.5 26.5 16 C 26.5 17.5 25.5 18.5 24 18.5 L 18 18.5 L 18 16.5 L 23.5 16.5 C 24 16.5 24.5 16 24.5 15.5 C 24.5 15 24 14.5 23.5 14.5 L 20.5 14.5 L 20.5 13.5 L 23.5 13.5 C 24 13.5 24.5 13 24.5 12.5 C 24.5 12 24 11.5 23.5 11.5 L 18 11.5 Z" fill="white"/>
+</svg>
